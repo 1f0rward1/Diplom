@@ -1,466 +1,466 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1686545696451812, "dur": 2851360, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545696452037, "dur": 3498, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545696455536, "dur": 47721, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545696503299, "dur": 1858019, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545698361319, "dur": 927689, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545699289010, "dur": 14161, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545699312703, "dur": 55, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561702708880, "dur": 762702, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561702709156, "dur": 4157, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561702713316, "dur": 32584, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561702745932, "dur": 205099, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561702951033, "dur": 505916, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561703456951, "dur": 14630, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561703471902, "dur": 12, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1686545697923024, "dur": 402410, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686545697924176, "dur": 129731, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686545698298891, "dur": 4221, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686545698303115, "dur": 22313, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686545698303750, "dur": 21185, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686545698329751, "dur": 1189, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686545698329000, "dur": 1966, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545699312917, "dur": 462, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686561702835099, "dur": 99329, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686561702836013, "dur": 40768, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686561702919470, "dur": 4218, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686561702923692, "dur": 10728, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686561702924448, "dur": 9455, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686561702938712, "dur": 1237, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686561702937944, "dur": 2033, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561703471961, "dur": 121, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1686545698406848, "dur":1037, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545698407912, "dur":77, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1686545698408002, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1686545698408021, "dur":269, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1686545698408310, "dur":586, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545698408896, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276482, "dur":116, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276598, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276610, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276613, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276619, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276621, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276626, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276628, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276634, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276648, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276654, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276656, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276661, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276677, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699276713, "dur":1273, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1686545698408739, "dur":164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698408903, "dur":3146, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698412057, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1686545698412060, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698412121, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1686545698412125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698412658, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1686545698414887, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1686545698414920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698414935, "dur":56987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1686545698471938, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1686545698471968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698471975, "dur":75005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1686545698547036, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1686545698547146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698556862, "dur":331724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1686545698888601, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698888615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698888621, "dur":21998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698910630, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698910643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698910649, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698912970, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698912981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698912985, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698914306, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698914318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698914321, "dur":20309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698934643, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698934654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545698934660, "dur":17364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545698952036, "dur":88014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545699040054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686545699040061, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686545699040634, "dur":235840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698408962, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698408962, "dur":3141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698412103, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1686545698412148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698413499, "dur":54009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1686545698467520, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1686545698467557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698467572, "dur":53915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1686545698521498, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545698521527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698521530, "dur":309575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545698831145, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545698831231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698831245, "dur":52765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545698884038, "dur":111345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545698995388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545698995396, "dur":20337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699015744, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699015755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699015759, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699016662, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699016673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699016677, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699017222, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699017252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699017257, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699017839, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699017849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699017853, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699018915, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699018929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699018934, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699020581, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699020591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699020595, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699021504, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699021514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699021517, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699022447, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699022460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699022463, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699023384, "dur":22837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699046224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686545699046231, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686545699046751, "dur":229729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698408927, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698408928, "dur":3186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698412114, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1686545698412163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698413255, "dur":41335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1686545698454603, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1686545698454629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698454634, "dur":16757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1686545698471405, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1686545698471443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698471449, "dur":50002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1686545698521464, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698521488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698556859, "dur":342881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698899754, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698899769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698899774, "dur":12955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698912739, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698912749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698912754, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698914764, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698914774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698914792, "dur":15941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698930753, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698930770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698930776, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698931341, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698931361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698931365, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698931889, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698931900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698931904, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698933124, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698933138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698933143, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698935115, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698935127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698935131, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698939500, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698939983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698939986, "dur":7095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698947090, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698947101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698947104, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698948064, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698948075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698948078, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698948972, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698948990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545698948993, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545698950283, "dur":174869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545699125156, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686545699125176, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686545699126009, "dur":150454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698408984, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698408985, "dur":3119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698412105, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1686545698412156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698413215, "dur":22211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1686545698435440, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1686545698435469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698435705, "dur":28401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1686545698464122, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1686545698464148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698464365, "dur":18482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1686545698482858, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1686545698482884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698482888, "dur":51691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1686545698534595, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1686545698534612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698534617, "dur":371988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1686545698906617, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698906646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698906651, "dur":6322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698912983, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698912994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698913049, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698914121, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698914133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698914137, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698915107, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698915117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698915121, "dur":16260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698931391, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698931407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698931411, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698934973, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698934985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698934989, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698938106, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698938119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698938124, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698938629, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698938643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698938647, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698939132, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698939144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698939147, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698939671, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698939682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698939686, "dur":6432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698946131, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698946148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698946154, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698946958, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698946970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698946975, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698947984, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698948001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698948025, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698948943, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698948954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698948958, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698950388, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698950401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545698950407, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545698953593, "dur":321825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545699275423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686545699275430, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686545699276449, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":4, "ts":1686545699276451, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698409003, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698409004, "dur":3100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698412104, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1686545698412166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698413289, "dur":25867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1686545698439167, "dur":10081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1686545698449250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698449273, "dur":41232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1686545698490517, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1686545698490542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698490565, "dur":55996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1686545698546620, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control.exe" }}
-,{ "pid":12345, "tid":5, "ts":1686545698546672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698546687, "dur":15736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control.exe" }}
-,{ "pid":12345, "tid":5, "ts":1686545698562463, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698562513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698562954, "dur":44689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698607655, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698607672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698607687, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698608151, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698608166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698608170, "dur":95396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698703610, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698703688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698703708, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698706814, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698706894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698706914, "dur":11013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698717938, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698717952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698717959, "dur":25164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698743179, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698743233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698743256, "dur":23037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698766310, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698766324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698766331, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698766814, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698766825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698766829, "dur":11804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698778644, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698778671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698778674, "dur":30064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698808757, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698808775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698808784, "dur":30560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698839353, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698839369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698839373, "dur":71741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698911123, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698911140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698911144, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698913619, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698913632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698913636, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698914727, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698914740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698914744, "dur":23396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698938157, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698938169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698938172, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698938719, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698938730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698938733, "dur":8236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698946979, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698946990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698946995, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698948043, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698948055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698948059, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698948965, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698948975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698948979, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698949833, "dur":30421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698980259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698980266, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698980841, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698980851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698980855, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698981359, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698981370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698981375, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698983068, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698983083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698983089, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698983958, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545698983985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545698983990, "dur":31439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699015440, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699015453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699015459, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699016282, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699016297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699016302, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699016916, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699016928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699016932, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699017496, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699017506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699017510, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699018003, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699018016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699018020, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699020160, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699020175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699020182, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699020733, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699020744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699020747, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699021345, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699021356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699021361, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699022227, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699022238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699022243, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1686545699024489, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1686545699024502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699024515, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1686545699025211, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1686545699025222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699025226, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1686545699029018, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1686545699029030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699029035, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1686545699030076, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1686545699030158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699030163, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1686545699030599, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1686545699031116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699031121, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1686545699031637, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1686545699031649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699031653, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1686545699032106, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1686545699032116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699032123, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/level0.resS" }}
-,{ "pid":12345, "tid":5, "ts":1686545699032630, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1686545699032640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699032644, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1686545699035612, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1686545699035641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699035647, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1686545699036371, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1686545699036383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699036387, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1686545699036878, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1686545699036956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1686545699036961, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1686545699037403, "dur":239074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698409035, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698409036, "dur":3038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698412074, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1686545698412211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698413455, "dur":35657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1686545698449124, "dur":1780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1686545698450907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698450911, "dur":8240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1686545698459164, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1686545698459196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698459202, "dur":12059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1686545698471280, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1686545698471317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698471324, "dur":50105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1686545698521444, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698521472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698556856, "dur":119149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698676055, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698676112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698676134, "dur":28548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698704729, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698704795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698704814, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698707325, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698707390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698707410, "dur":10639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698718059, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698718076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698718080, "dur":35838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698753930, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698753944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698753951, "dur":12807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698766771, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698766783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698766787, "dur":11831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698778629, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698778647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698778652, "dur":30099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698808768, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698808786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698808792, "dur":30452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698839257, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698839270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698839276, "dur":56540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698895828, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698895852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698895858, "dur":16115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698911983, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698911993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698911997, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698913652, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698913663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698913667, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698915120, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698915130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698915133, "dur":15773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698930915, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698930928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698930932, "dur":4342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698935289, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698935301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698935304, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698939759, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698939769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545698939772, "dur":10168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545698949949, "dur":135219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545699085172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1686545699085179, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Build_diplom_v6/Robot_arm_control_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1686545699085877, "dur":190593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686545699279416, "dur":1394, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1686545699313536, "dur": 2403, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686545699312671, "dur": 3353, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1686561702995344, "dur":851, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561702996205, "dur":63, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686561702996281, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686561702996300, "dur":183, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686561702996503, "dur":436, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561702996939, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449753, "dur":112, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449865, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449873, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449875, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449880, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449882, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449887, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449889, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449895, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449897, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449902, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449904, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449912, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449930, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703449950, "dur":1163, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686561702997091, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561702997091, "dur":3200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703000292, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1686561703000331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703005969, "dur":16929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1686561703022911, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703022924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703023017, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703023557, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703023572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703023576, "dur":48313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703071900, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703071918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703071922, "dur":505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703072437, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703072472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703072476, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703073139, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703073154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703073158, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703073778, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703073791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703073795, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703074405, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703074430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703074434, "dur":435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703074877, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703074887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703074891, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703075485, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703075497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703075500, "dur":41409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703116992, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703117119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703117139, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703119371, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703119426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703119445, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703121712, "dur":95006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703216721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703216726, "dur":15096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703231831, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703231841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703231845, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703232398, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703232413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703232417, "dur":527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703232953, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703232964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703232968, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703233512, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703233523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703233526, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703234088, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703234099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703234103, "dur":15735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703249847, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703249858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703249862, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703250787, "dur":30698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703281489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703281496, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703282113, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703282123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703282128, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703282660, "dur":53491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703336154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703336159, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686561703337295, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1686561703337307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703337321, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1686561703338060, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686561703338072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703338077, "dur":6514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686561703344600, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1686561703344611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703344614, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1686561703347910, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686561703347985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686561703347990, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686561703348641, "dur":101105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561702997256, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561702997256, "dur":2988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703000250, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1686561703000285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703001076, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1686561703002381, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686561703002396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703002626, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686561703003316, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686561703003333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703003358, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686561703004328, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686561703004364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703004368, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686561703004967, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1686561703004993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703004998, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1686561703005844, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686561703005901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703005926, "dur":334602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686561703340543, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686561703340624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703340631, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686561703343612, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686561703343622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703343627, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686561703344043, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686561703344054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703344063, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686561703345034, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686561703345044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703345048, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686561703345535, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686561703345545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686561703345548, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686561703347983, "dur":101767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561702997416, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561702997416, "dur":2852, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561703000269, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686561703000306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561703001264, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686561703002546, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686561703002560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561703002564, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686561703003164, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686561703003177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561703003437, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686561703003977, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686561703003996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561703004001, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686561703006016, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686561703006043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561703006046, "dur":291903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686561703297968, "dur":151066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686561703449038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686561703449045, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686561703449720, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1686561703449721, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561702997079, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561702997080, "dur":3209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703000290, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686561703000325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703005774, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686561703006917, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686561703006930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703006934, "dur":16379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686561703023322, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703023337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703023349, "dur":48237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703071605, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703071620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703071627, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703072207, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703072223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703072227, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703072808, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703072820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703072825, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703073495, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703073513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703073518, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703074148, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703074163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703074167, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703074752, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703074763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703074766, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703075297, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703075311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703075315, "dur":40832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703116192, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703116240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703116261, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703118706, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703118752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703118770, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703121267, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703121387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703121414, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703125003, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703125049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703125063, "dur":39553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703164629, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703164649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703164655, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703165204, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703165220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703165224, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703165678, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703165699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703165703, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703166323, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703166335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703166338, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703166914, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703166925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703166929, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703167405, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703167417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703167420, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703167923, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703167937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703167942, "dur":14950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703182909, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703182922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703182928, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703183641, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703183654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703183659, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703184204, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703184241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703184246, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703184711, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703184722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703184727, "dur":28679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703213420, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703213432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703213439, "dur":17941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703231393, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703231405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703231411, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703231994, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703232006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703232009, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703232499, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703232527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703232530, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703233173, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703233182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703233186, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703234132, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703234147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703234151, "dur":15762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703249922, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703249932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703249936, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703250676, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703250691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703250695, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703251221, "dur":56213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703307438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703307446, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703308445, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703308457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703308478, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703309037, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703309049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703309053, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703311064, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703311076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703311082, "dur":6298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703317392, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703317404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703317410, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703317984, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703317994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703317998, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703318952, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703318965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703318987, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703320019, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703320031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703320036, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703320557, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703320567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703320571, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703321376, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703321387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703321392, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703321957, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703321968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703321973, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703323657, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703323674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703323680, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703325054, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703325065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703325070, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703325984, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703325996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703326001, "dur":9329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703335344, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703335358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703335381, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686561703338426, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686561703338437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703338440, "dur":4524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686561703342975, "dur":1517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1686561703344494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686561703344499, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1686561703348253, "dur":101492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561702997196, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561702997196, "dur":3094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703000291, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686561703000314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703001170, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686561703002524, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686561703002541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703002553, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686561703003121, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686561703003135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703003154, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686561703004027, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686561703004039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703004044, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686561703006031, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686561703006055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703006058, "dur":117367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686561703123462, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703123524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703123538, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703125418, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703125455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703125467, "dur":39390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703164867, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703164879, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703164887, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703165562, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703165573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703165576, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703166136, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703166195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703166200, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703166773, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703166784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703166788, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703167363, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703167375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703167379, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703167946, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703167956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703167960, "dur":14992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703182962, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703182973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703182977, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703183758, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703183769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703183773, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703184349, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703184365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703184369, "dur":491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703184868, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703184878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703184885, "dur":28703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703213598, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703213609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703213613, "dur":17896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703231519, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703231531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703231536, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703232168, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703232178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703232182, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703232848, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703232859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703232862, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703233414, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703233425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703233428, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703234038, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703234051, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703234071, "dur":15674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703249758, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703249770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703249777, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703250305, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703250316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703250321, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703250979, "dur":62263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703313245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703313252, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703317929, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703317939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703317944, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703320426, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703320438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703320442, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703322005, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703322017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703322020, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703323806, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703323817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703323821, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703325670, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703325681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703325686, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703326444, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703326456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703326460, "dur":9071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703335541, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703335552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703335556, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703336369, "dur":23388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703359762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686561703359769, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686561703360347, "dur":89387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561702996983, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561702996983, "dur":3259, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703000250, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1686561703000253, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703000278, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1686561703000282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703000665, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1686561703002376, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686561703002394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703002409, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686561703003016, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1686561703003030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703003035, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1686561703003782, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1686561703003820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703003825, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1686561703005702, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686561703005716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703005854, "dur":16372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686561703022239, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1686561703022267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686561703022547, "dur":330599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Projects/Robot_arm_control/Robot_arm_control_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1686561703353160, "dur":96573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686561703451911, "dur":1276, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686561703472145, "dur": 482, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686561703471891, "dur": 757, "ph": "X", "name": "Write chrome-trace events", "args": {} },
