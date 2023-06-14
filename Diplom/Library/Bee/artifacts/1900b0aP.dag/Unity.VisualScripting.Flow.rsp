@@ -110,7 +110,9 @@
 -define:MODULE_PARTICLE_SYSTEM_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/Unity/Projects/Diplom/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Assets/Plugins/AnotherFileBrowser/Plugins/Ookii.Dialogs.dll"
+-r:"Assets/Plugins/AnotherFileBrowser/Plugins/System.Windows.Forms.dll"
+-r:"D:/Unity/Projects/Robot/Diplom/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/Unity/UntiyEditor/2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/Unity/UntiyEditor/2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/Unity/UntiyEditor/2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"

@@ -1,6 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ExitButton
+    - ExitMenuController
+    - LoadFile
+    - ModelController
     - Outline
     - Shape2_control
     - Shape3_control
@@ -18,18 +22,37 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   serializedClasses:
     Assembly-CSharp:
+    - ModelController/Lanka
     - Outline/ListVector3
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: ExitMenuController
+    methodName: ConfirmExit
+  - assembly: Assembly-CSharp
+    fullTypeName: ExitButton
+    methodName: CallConfirmMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: ExitMenuController
+    methodName: Resume
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -50,6 +73,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -61,31 +86,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1544}
     - Class: 114
-      Script: {instanceID: 1620}
+      Script: {instanceID: 1566}
     - Class: 114
-      Script: {instanceID: 2542}
+      Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 3262}
+      Script: {instanceID: 2548}
     - Class: 114
-      Script: {instanceID: 4210}
+      Script: {instanceID: 2746}
     - Class: 114
-      Script: {instanceID: 4632}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 5152}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 5332}
+      Script: {instanceID: 4222}
     - Class: 114
-      Script: {instanceID: 5448}
+      Script: {instanceID: 4644}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5164}
     - Class: 114
-      Script: {instanceID: 7036}
+      Script: {instanceID: 5270}
+    - Class: 114
+      Script: {instanceID: 5344}
+    - Class: 114
+      Script: {instanceID: 5460}
+    - Class: 114
+      Script: {instanceID: 5916}
+    - Class: 114
+      Script: {instanceID: 6432}
+    - Class: 114
+      Script: {instanceID: 6894}
+    - Class: 114
+      Script: {instanceID: 7056}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -93,6 +130,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -149,6 +188,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: bed09f416315212f28bb3accde0248a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ModelController
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -353,6 +398,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitMenuController
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -769,6 +820,18 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ceae696842f2d7f5bc7678cb7be4861b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FileBrowserUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: daabfbbf3c4e0a633a980ec855940aba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadFile
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -839,6 +902,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2c06c0de9f9e5868cc1257e8f5ac1131
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitButton
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -926,4 +995,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Unity/Projects/Robot_arm_control/Robot_arm_control.exe
+  playerPath: D:/Unity/Projects/Robot_arm_final/Robot_arm_control.exe
